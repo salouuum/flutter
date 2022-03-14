@@ -44,6 +44,7 @@ class _ToDo_HomeState extends State<ToDo_Home> {
       ),
     ),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -61,6 +62,7 @@ class _ToDo_HomeState extends State<ToDo_Home> {
       body: list[index],
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.black,
+        unselectedItemColor: Colors.white,
         currentIndex: index,
         type: BottomNavigationBarType.fixed,
         onTap: (currentindex){
