@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_course/modules/archivedtasks/archivedtasks.dart';
 import 'package:flutter_course/modules/newtasks/New_Tasks.dart';
 
-import '../modules/donetasks/donetasks.dart';
+import '../../modules/donetasks/donetasks.dart';
 
 class ToDo_Home extends StatefulWidget {
 
